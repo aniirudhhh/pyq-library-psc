@@ -1,0 +1,301 @@
+{
+  "questionPapers": [
+    {
+      "id": 1,
+      "title": "System Design Sem-3",
+      "subject": "System Design",
+      "year": 2021,
+      "papercode": "CC-7",
+      "duration": "3 hours",
+      "description": "Detailed evaluation for students in System Design covering core topics.",
+      "downloadUrl": "files/ssad 2021(1).pdf",
+      "tags": ["BCA", "Semester 3", "cc1"]
+    },
+    {
+      "id": 2,
+      "title": "Mathematics",
+      "subject": "Mathematics",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Final test in Mathematics, focusing on theoretical and practical knowledge.",
+      "downloadUrl": "files/QUESTION_BCA_2019-22_SEM3_GE3.pdf",
+      "tags": ["BCA", "Semester 1", "Programming"]
+    },
+    {
+      "id": 3,
+      "title": "Environmental Science Sem-2",
+      "subject": "Environmental Science",
+      "year": 2023,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Comprehensive exam on Environmental Science, as part of semester curriculum.",
+      "downloadUrl": "files/EN LAW.pdf",
+      "tags": ["BCA", "Semester 2", "Math"]
+    },
+    {
+      "id": 4,
+      "title": "Java",
+      "subject": "Java",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Assessment includes MCQs, short, and long questions in Java.",
+      "downloadUrl": "files/Java 2021.pdf",
+      "tags": ["BCA", "Semester 2", "Java"]
+    },
+    {
+      "id": 5,
+      "title": "VB.NET Sem-1",
+      "subject": "VB.NET",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Exam covering all important aspects of VB.NET.",
+      "downloadUrl": "files/cc-09.pdf",
+      "tags": ["BCA", "Semester 1", "vb.net"]
+    },
+    {
+      "id": 6,
+      "title": "Operating Systems Sem-3",
+      "subject": "Operating Systems",
+      "year": 2023,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Final test in Operating Systems, focusing on theoretical and practical knowledge.",
+      "downloadUrl": "files/CC6 2023.pdf",
+      "tags": ["BCA", "Semester 3", "os"]
+    },
+    {
+      "id": 7,
+      "title": "Fundamentals of Computers",
+      "subject": "Fundamentals of Computers",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Comprehensive exam on Fundamentals of Computers, as part of semester curriculum.",
+      "downloadUrl": "files/CC 1 2022.pdf",
+      "tags": ["BCA", "Semester 1", "fundamentals"]
+    },
+    {
+      "id": 8,
+      "title": "RDBMS Sem-4",
+      "subject": "RDBMS",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Assessment includes MCQs, short, and long questions in RDBMS.",
+      "downloadUrl": "files/oracle 2022.pdf",
+      "tags": ["BCA", "Semester 4", "database"]
+    },
+    {
+      "id": 9,
+      "title": "English Sem-1",
+      "subject": "English",
+      "year": 2023,
+      "questions": "Short, Long",
+      "duration": "3 hours",
+      "description": "Detailed evaluation for students in English covering core topics.",
+      "downloadUrl": "filesAECC 1 2023 English .pdf",
+      "tags": ["BCA", "Semester 1", "english"]
+    },
+    {
+      "id": 10,
+      "title": "Statistics Sem-3",
+      "subject": "Statistics",
+      "year": 2023,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Measures of central tendency, probability, and hypothesis testing.",
+      "downloadUrl": "files/Ge 03.pdf",
+      "tags": ["BCA", "Semester 3", "Math"]
+    },
+    {
+      "id": 11,
+      "title": "Operating System Sem-3",
+      "subject": "Operating System",
+      "year": 2023,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Covers process management, memory management, file system, and scheduling.",
+      "downloadUrl": "files/CC06.pdf",
+      "tags": ["BCA", "Semester 3", "OS"]
+    },
+    {
+      "id": 12,
+      "title": "C Programming Sem-1",
+      "subject": "Programming in C",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Comprehensive exam on C Programming, as part of semester curriculum.",
+      "downloadUrl": "files/C 2023.pdf",
+      "tags": ["BCA", "Semester 1", "c"]
+    },
+    {
+      "id": 13,
+      "title": "Networking Sem-4",
+      "subject": "Networking",
+      "year": 2024,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Covers CPU architecture, memory hierarchy, and instruction sets.",
+      "downloadUrl": "files/CC 8 2024.pdf",
+      "tags": ["BCA", "Semester 4", "Hardware"]
+    },
+    {
+      "id": 14,
+      "title": "Python Sem-3",
+      "subject": "Python",
+      "year": 2023,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Assessment includes MCQs, short, and long questions in Python.",
+      "downloadUrl": "files/CC5 2023(2nd paper).pdf",
+      "tags": ["BCA", "Semester 3", "python"]
+    },
+    {
+      "id": 15,
+      "title": "Mathematics Sem-1",
+      "subject": "Mathematics",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Detailed evaluation for students in Mathematics covering core topics.",
+      "downloadUrl": "files/statistics 2022.pdf",
+      "tags": ["BCA", "Semester 1", "math"]
+    },
+    {
+      "id": 16,
+      "title": "Computer Networks Sem-4",
+      "subject": "Computer Networks",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "OSI and TCP/IP models, routing, switching, IP addressing, and protocols.",
+      "downloadUrl": "files/computer networking 2022.pdf",
+      "tags": ["BCA", "Semester 4", "Networking"]
+    },
+    {
+      "id": 17,
+      "title": "System Design Sem-3",
+      "subject": "System Design",
+      "year": 2023,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Software development life cycle, models, testing, and documentation.",
+      "downloadUrl": "files/CC07 2023(2nd paper).pdf",
+      "tags": ["BCA", "Semester 3", "Software"]
+    },
+    {
+      "id": 18,
+      "title": "VVB.NET Sem-4",
+      "subject": "VB.NET",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Windows Forms, event-driven programming, and UI design concepts.",
+      "downloadUrl": "files/vb.net 2022.pdf",
+      "tags": ["BCA", "Semester 4", "Programming"]
+    },
+    {
+      "id": 19,
+      "title": "Operating Systems Sem-3",
+      "subject": "Operating Systems",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Assessment includes MCQs, short, and long questions in Operating Systems.",
+      "downloadUrl": "files/OS 2021.pdf",
+      "tags": ["BCA", "Semester 3", "system"]
+    },
+    {
+      "id": 20,
+      "title": "System Analysis and Design Sem-3",
+      "subject": "SSAD",
+      "year": 2022,
+      "questions": "Short, Long, Diagrams",
+      "duration": "3 hours",
+      "description": "Focuses on SDLC, DFDs, ERDs, feasibility study, and project planning.",
+      "downloadUrl": "#",
+      "tags": ["BCA", "Semester 3", "Analysis"]
+    },
+    {
+      "id": 21,
+      "title": "RDBMS Sem-4",
+      "subject": "RDBMS",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Detailed evaluation for students in RDBMS covering core topics.",
+      "downloadUrl": "#",
+      "tags": ["BCA", "Semester 4", "rdbms"]
+    },
+    {
+      "id": 22,
+      "title": "Statistics Sem-3",
+      "subject": "Statistics",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Exam covering all important aspects of Statistics.",
+      "downloadUrl": "#",
+      "tags": ["BCA", "Semester 3", "stats"]
+    },
+    {
+      "id": 23,
+      "title": "Environmental Science Sem-2",
+      "subject": "Environmental Science",
+      "year": 2022,
+      "questions": "MCQs, Case-based, Long",
+      "duration": "3 hours",
+      "description": "Comprehensive exam on Environmental Science, as part of semester curriculum.",
+      "downloadUrl": "files/sec 2. 2022.pdf",
+      "tags": ["BCA", "Semester 2", "evs"]
+    },
+    {
+      "id": 24,
+      "title": "Fundamentals of Computers",
+      "subject": "Fundamentals of Computers",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Detailed evaluation for students in java Programming covering core topics.",
+      "downloadUrl": "files/Fundamental 2023.pdf",
+      "tags": ["BCA", "Semester 2", "Cloud"]
+    },
+    {
+      "id": 25,
+      "title": "Java Sem-2",
+      "subject": "Java",
+      "year": 2021,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Assessment includes MCQs, short, and long questions in Java.",
+      "downloadUrl": "#",
+      "tags": ["BCA", "Semester 2", "Project"]
+    },
+    {
+      "id": 26,
+      "title": "Architecture Sem-2",
+      "subject": "Architecture",
+      "year": 2024,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Software development life cycle, models, testing, and documentation.",
+      "downloadUrl": "#",
+      "tags": ["BCA", "Semester 2", "system"]
+    },
+    {
+      "id": 27,
+      "title": "Architecture Sem-2",
+      "subject": "Architecture",
+      "year": 2022,
+      "questions": "MCQs, Short, Long",
+      "duration": "3 hours",
+      "description": "Software development life cycle, models, testing, and documentation.",
+      "downloadUrl": "#",
+      "tags": ["BCA", "Semester 2", "architecture"]
+    }
+  ]
+}

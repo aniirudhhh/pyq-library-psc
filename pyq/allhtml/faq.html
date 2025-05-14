@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frequently Asked Questions - PyQ Library</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<style>
+  /* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.faq-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #4CAF50;
+}
+
+.faq {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 12px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+
+.toggle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  .faq-question h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  .faq-question h2 {
+    font-size: 14px;
+  }
+}
+
+</style>
+<body>
+
+  <div class="faq-container">
+    <header>
+      <h1>Frequently Asked Questions</h1>
+    </header>
+
+    <section class="faq">
+      <div class="faq-item">
+        <div class="faq-question">
+          <span class="toggle">+</span>
+          <h2>What is PyQ Library?</h2>
+        </div>
+        <div class="faq-answer">
+          <p>PyQ Library is an online platform where you can access previous year question papers from various colleges to help you prepare for exams.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span class="toggle">+</span>
+          <h2>How can I upload my own question papers?</h2>
+        </div>
+        <div class="faq-answer">
+          <p>To upload your own question papers, simply log in to your account and navigate to the "Upload" section. You can upload PDFs of your question papers easily.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span class="toggle">+</span>
+          <h2>Is the content free to access?</h2>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, PyQ Library provides free access to all the uploaded question papers for students. You can download them without any charges.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span class="toggle">+</span>
+          <h2>Do I need to create an account to access the papers?</h2>
+        </div>
+        <div class="faq-answer">
+          <p>No, you do not need an account to download question papers. However, creating an account allows you to upload papers and keep track of your downloads.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 PyQ Library. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="faq.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

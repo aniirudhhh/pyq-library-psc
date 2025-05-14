@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PyQ Library - Previous Year Questions</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            PyQ Library
+          </a>
+          <nav>
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#aboutsec">About</a></li>
+              <li><a href="allhtml/feedback.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="scrollall" class="container">
+      <div class="hero">
+        <h1 id="animate-heading">Previous Year Question Library</h1>
+        <p>
+          Access and practice with previous year questions across various
+          subjects. Filter by year, subject, and search by keywords.
+        </p>
+      </div>
+
+      <div class="filters">
+        <div class="filter-group">
+          <label class="filter-label" for="year-filter">Filter by Year</label>
+          <select id="year-filter">
+            <option value="">All Years</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" for="subject-filter"
+            >Filter by Subject</label
+          >
+          <select id="subject-filter">
+            <option value="">All Subjects</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Fundamentals of Computers">Fundamentals of computer</option>
+            <option value="English">English</option>
+            <option value="Programming in C">Programming in C</option>
+            <option value="Java">Java</option>
+            <option value="System Design">System Design</option>
+            <option value="Environmental Science">Environmental Science</option>
+            <option value="VB.NET">VB.NET</option>
+          </select>
+        </div>
+        <div class="search-group">
+          <label class="filter-label" for="search-input"
+            >Search Questions</label
+          >
+          <div style="position: relative">
+            <svg
+              class="search-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="text"
+              id="search-input"
+              class="search-input"
+              placeholder="Search by keyword..."
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="results-container" class="page-transition">
+        <div class="loading">
+          <div class="loading-spinner"></div>
+        </div>
+      </div>
+      <div class="greet">
+        <h3>🔥 Cooking up more PYQs for you — Stay tuned!</h3>
+      </div>
+    </main>
+
+    <!-- <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 PyQ Library. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <footer id="aboutsec">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-top">
+            <div class="footer-about">
+              <h3>About PyQ Library</h3>
+              <p>
+                PyQ Library helps students access previous year question papers
+                with ease. We provide reliable and categorized exam resources to
+                boost your preparation.
+              </p>
+            </div>
+
+            <div class="footer-links">
+              <h3>Quick Links</h3>
+              <a href="#">Home</a>
+              <a href="#scrollall">All Papers</a>
+              <a href="allhtml/upload.html">Upload Paper</a>
+              <a href="allhtml/faq.html">FAQ</a>
+            </div>
+
+            <div class="footer-contact">
+              <h3>Contact</h3>
+              <p>
+                Email:
+                <a href="anirudhk.umar9881@gmail.com"
+                  >anirudhk.umar9881@gmail.com</a
+                >
+              </p>
+              <p>GitHub:
+                <a href="https://github.com/aniirudhhh">aniirudhhh</a>
+              </p>
+              <p>Student At: Patna Science college</p>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>&copy; 2025 PyQ Library. All rights reserved.</p>
+            <div class="footer-policy-links">
+              <a href="allhtml/privacy.html">Privacy Policy</a>
+              <a href="allhtml/termCon.html">Terms of Service</a>
+              <a href="allhtml/faq.html">FAQ</a>
+            </div>
+            <p class="made">Made with ❤️ by Anirudh. A student of PSC...</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="preview-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <iframe
+          id="pdf-frame"
+          width="100%"
+          height="600px"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

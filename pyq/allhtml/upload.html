@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Upload PYQs</title>
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/brutus-academy");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .coming-soon {
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Brutus Academy", sans-serif;
+        animation: pulse 2s infinite;
+        color: #ff6600;
+      }
+      .cutie {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: "Brutus Academy", sans-serif;
+        color: #ff6600;
+      }
+      .image {
+        border-radius: 10px;
+        width: 230px;
+        margin-bottom: 10px;
+      }
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img class="image" src="download.jpeg" alt="img" />
+    <h2 class="cutie">Sorry Cutie 🎀</h2>
+    <div class="main">
+      <h3 class="coming-soon" id="typewriter"></h3>
+    </div>
+    <script>
+      const text = "🚧 This feature is under development. Stay tuned!";
+      let index = 0;
+
+      function type() {
+        if (index < text.length) {
+          document.getElementById("typewriter").innerHTML += text.charAt(index);
+          index++;
+          setTimeout(type, 50); // typing speed
+        } else {
+          setTimeout(() => {
+            document.getElementById("typewriter").innerHTML = "";
+            index = 0;
+            type();
+          }, 2000); // pause before restarting
+        }
+      }
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+        alert("Right-click is disabled on this website! 😣");
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (
+          event.key === "F12" ||
+          (event.ctrlKey && event.shiftKey && event.key === "I")
+        ) {
+          event.preventDefault();
+          alert("Sorry Bruh! 😣 Developer tools are disabled on this site.");
+        }
+      });
+      window.onload = type;
+    </script>
+  </body>
+</html>
