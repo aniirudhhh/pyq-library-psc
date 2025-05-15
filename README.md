@@ -55,7 +55,7 @@ pyq-library/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pyq-library.git
+   git clone https://github.com/aniirudhhh/pyq-library-psc.git
    cd pyq-library
    ```
 
